@@ -1,3 +1,8 @@
+$primaryColor: #020b13;
+$secondaryColor: #DAA520;
+$tertiaryColor:#FFD700;
+$fontColor: #ffffff;
+$secondaryFontColor: #24221f;
 body{
     background-color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -25,6 +30,9 @@ body{
         }
         a:hover{
             text-decoration:overline;
+            color: $tertiaryColor;
+
+        
         }
     }
 }

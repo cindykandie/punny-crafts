@@ -44,5 +44,6 @@ nav li a:visited {
 
 nav li a:hover {
   text-decoration: overline;
+  color: #FFD700;
 }
 /*# sourceMappingURL=nav.css.map */

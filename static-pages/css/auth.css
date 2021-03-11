@@ -7,16 +7,16 @@
 }
 
 a:link {
-  color: #005A9C;
+  color: #DAA520;
   font-weight: 600;
 }
 
 a:visited {
-  color: #005A9C;
+  color: #DAA520;
 }
 
 a:hover {
-  color: #4e83e6;
+  color: #FFD700;
 }
 
 body {
@@ -39,10 +39,15 @@ body {
   padding-top: 10vh;
 }
 
+body img {
+  height: 20vh;
+  border-radius: 10px;
+}
+
 form {
   padding: 1rem;
   border-radius: 12px;
-  border: 1px solid #005A9C;
+  border: 1px solid #DAA520;
   outline: none;
   margin-bottom: 20px;
 }
@@ -55,16 +60,21 @@ form a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  font-size: 75%;
 }
 
 form a:link {
-  color: red;
+  color: #b95d17;
+}
+
+form a:hover {
+  color: #DAA520;
 }
 
 form input {
   border-radius: 12px;
   border: none;
-  border-bottom: 1px solid #005A9C;
+  border-bottom: 1px solid #DAA520;
   outline: none;
   padding: 10px;
   margin-bottom: 20px;
@@ -75,16 +85,16 @@ form input {
 }
 
 form input:hover {
-  background-color: #005A9C;
+  background-color: #DAA520;
 }
 
 form input[type=button] {
   width: 100%;
-  background-color: #005A9C;
+  background-color: #DAA520;
   margin-top: 20px;
 }
 
 form input[type=button]:hover {
-  background-color: #4e83e6;
+  background-color: #FFD700;
 }
 /*# sourceMappingURL=auth.css.map */
